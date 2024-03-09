@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-kTYu2UpzDYm6x1eYzR7VUXOWJFPw9CrMIzoaPrs61NgaDaiUWyA68CtCzYYiWssPQQGU7oqTRkdXsKjQRY87zQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <style>
+    /* Custom styles */
+    body {
+      background-color: #fff; /* White background */
+      color: #000; /* Black text color */
+    }
+
+    .jumbotron {
+      background-color: #000; /* Black navbar and header background */
+      color: #fff; /* White text color */
+    } 
+
+    .navbar-brand img {
+      max-height: 40px;
+      margin-right: 10px;
+    }
+
+    .jumbotron img {
+      filter: grayscale(100%); /* Convert header image to grayscale */
+    }
+    
+    .btn-outline-light:hover,
+    .btn-outline-light:focus {
+  color: black !important;
+}
+
+    
+
+    
+
+    .card {
+      background-color: #fff; /* White card background */
+      color: #000; /* Black text color */
+    }
+
+
+  </style>
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="/static/27974006.jpg" alt="Logo"> My Portfolio
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+
+          <a href="#about" class="btn btn-outline-light mx-3 text-white"
+            type="submit">About</a>
+          <a href="#skills" class="btn btn-outline-light text-white me-4"
+            type="submit">Skills</a>
+          <a href="#portfolio" class="btn btn-outline-light mx-3 text-white"
+            type="submit">Portfolio</a>
+          <a href="#contact" class="btn btn-outline-light text-white me-4"
+            type="submit">Contact</a>
+
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="jumbotron text-center">
+      <img src="/static/SAVE_20231110_212834.jpg" class="img-fluid"
+        alt="Header Image">
+      <h1>Welcome to My Portfolio</h1>
+      <p>I'm a fresher looking to kickstart my career in Software Industry.
+        Here's what I bring to the table.</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container mt-5">
+      <h2>About Me</h2>
+      <p><p>Hello! My name is Amar Kumar Pathak, and I'm passionate about
+          software development. I am pursuing graduation from KL University with
+          a degree of BCA and I'm excited to kickstart my career in the world of
+          software engineering.
+
+          During my academic journey, I've developed a strong foundation in
+          various programming languages such as Java, Python, SQL.
+          I'm particularly interested in building scalable and efficient
+          software solutions that solve real-world problems. Apart from this, I
+          have high interest in Data Science. I have a good knowledge in the
+          field of data analytics and along with that i also have good knowledge
+          about the Machine Learning Algorithms. I'm always eager to learn new
+          technologies and frameworks to stay updated with industry trends.
+          Aside from my technical skills, I possess excellent problem-solving
+          abilities and have a keen eye for detail. I'm a strong believer in the
+          agile development methodology and enjoy collaborating with
+          cross-functional teams to deliver high-quality software products.
+          In my free time, I like to explore new technologies through online
+          courses and tutorials.
+        </p>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="container mt-5">
+        <h2>Skills</h2>
+        <p>Here some skills which i possess - </p>
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Technical Skills</h3>
+            <ul>
+              <li>HTML/CSS</li>
+              <li>Bootstrap</li>
+              <li>Java</li>
+              <li>Python</li>
+              <li>Power BI</li>
+              <li>Machine Learning</li>
+              <li>SQL</li>
+              <!-- Add more skills as needed -->
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h3>Soft Skills</h3>
+            <ul>
+              <li>Effective Communication</li>
+              <li>Problem-Solving</li>
+              <li>Teamwork</li>
+              <li>Leadership</li>
+              <li>Adaptability</li>
+              <li>Conflict Resolution</li>
+              <!-- Add more skills as needed -->
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="container mt-5">
+        <h2>Portfolio</h2>
+        <p>These are some of my Projects which I have made during the time of
+          learning.</p>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="/static/PowerBI.png" class="card-img-top"
+                alt="Project 1">
+              <div class="card-body">
+                <h5 class="card-title">Power BI Project on Global Superstore
+                  data 2016.</h5>
+                <p class="card-text">The dataset used here is of global
+                  superstore 2016 . I have analysed the data virtually to show
+                  the Average of delivery days, The sum of sales, Sum of
+                  quantity.
+                  Here you can also see the top 10 customers, The top 5 products
+                  which produces profit as well as loss.</p>
+                <a href="https://github.com/Amar00007/Global_Superstore_PowerBI"
+                  class="btn btn-dark">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="/static/Books.jpg" class="card-img-top"
+                alt="Project 2">
+              <div class="card-body">
+                <h5 class="card-title">Online Book Store using Bootstrap.</h5>
+                <p class="card-text">This is a frontend page of an Online Book
+                  Store in which you have a pleasant responsive page.
+                  Here you have the feature of cart, which looks great, it also
+                  has the login feature.There is also a feature to signup for
+                  new users. The future of this project
+                  will be to connect a backend.
+                </p>
+                <a href="https://github.com/Amar00007/Book_Store" class="btn btn-dark">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="/static/Diabetes.jpg" class="card-img-top"
+                alt="Project 3">
+              <div class="card-body">
+                <h5 class="card-title">Diabetes Prediction using ML (Logistic Regression)</h5>
+                <p class="card-text">My project utilizes logistic regression to
+                  predict the likelihood of diabetes based on patient data.
+                  Through extensive analysis, we identify key factors
+                  contributing to diabetes onset. By leveraging machine learning
+                  techniques, we aim to provide early detection and intervention
+                  strategies.</p>
+                <a href="https://github.com/Amar00007/Diabetes_Prediction" class="btn btn-dark">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="container mt-5">
+        <h2>Contact Me</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <p><strong>Email:</strong> amarkumarpathak2004@gmail.com</p>
+            <p><strong>Phone:</strong> +91 977417XXX</p>
+          </div>
+          <div class="col-md-6">
+            <p><strong>Address:</strong><br>
+              KL Boys Hostel,<br>
+              Gundimeda, Vijayawada,<br>
+              Andhra Pradesh, India, <br>
+              Postal Code - 522303
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+      <!-- Footer -->
+      <section class>
+        <footer class="bg-dark text-center text-white ">
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-2">
+              <!-- Facebook -->
+              <a class="btn btn-outline-light btn-floating m-1"
+                href="https://www.facebook.com/amarkumar.pathak.98"
+                target="_blank" role="button"><i
+                  class="fab fa-facebook-f"></i></a>
+
+              <!-- Twitter -->
+              <a class="btn btn-outline-light btn-floating m-1"
+                href="https://twitter.com/naughtyboi58?t=sXUx9qvkyW3CfhlHoBoKgQ&s=09"
+                target="_blank" role="button"><i
+                  class="fab fa-twitter"></i></a>
+
+              <!-- Google -->
+              <a class="btn btn-outline-light btn-floating m-1"
+                href="https://www.google.com/search?rlz=1C1OPNX_enIN1016IN1016&sxsrf=AJOqlzVktFK1Z9RHdeS6WWssHKTrhUtwWw:1677836335782&q=Amar+Kumar+Pathak&stick=H4sIAAAAAAAAAOOwesSozi3w8sc9YSm5SWtOXmOU4BLzSsxLLEl0LkpNLEkNTk0sSs5wTixK4VnEKuiYm1ik4F0KIgMSSzISswGdQ8oIQAAAAA&sa=X&ved=2ahUKEwiFhqS2u7_9AhUlAbcAHVb2CMYQnJoFegQIGRAG&biw=1280&bih=569&dpr=1.5"
+                target="_blank" role="button"><i class="fab fa-google"></i></a>
+
+              <!-- Instagram -->
+              <a class="btn btn-outline-light btn-floating m-1"
+                href="https://instagram.com/a_m_a_r____7?igshid=NTE5MzUyOTU="
+                target="_blank" role="button"><i
+                  class="fab fa-instagram"></i></a>
+
+              <!-- Linkedin -->
+              <a class="btn btn-outline-light btn-floating m-1"
+                href="https://www.linkedin.com/in/amar-kumar-pathak-661a66258"
+                target="_blank" role="button"><i
+                  class="fab fa-linkedin-in"></i></a>
+
+              <!-- Github -->
+              <a class="btn btn-outline-light btn-floating m-1"
+                href="https://github.com/Amar00007" target="_blank"
+                role="button"><i class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+          </div>
+          <!-- Grid container -->
+
+          <!-- Copyright -->
+          <div class="text-center p-3"
+            style="background-color: rgba(0, 0, 0, 0.2);">
+            <p>Copyright &copy 2024, My Portfolio.All Rights Reserved</p>
+
+          </div>
+          <!-- Copyright -->
+        </footer>
+
+        <!-- Bootstrap JavaScript Bundle with Popper -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script
+          src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+      </body>
+    </html>
