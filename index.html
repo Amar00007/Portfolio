@@ -3,21 +3,24 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>
+      My Portfolio</title>
+      <link rel="icon" type="image/x-icon" href="static/27974006.jpg">
     <link
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      href="/static/css/bootstrap.min.css"
       rel="stylesheet">
 
     <!-- Font Awesome -->
     <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      href="/static/css/5.15.4.css"
       integrity="sha512-kTYu2UpzDYm6x1eYzR7VUXOWJFPw9CrMIzoaPrs61NgaDaiUWyA68CtCzYYiWssPQQGU7oqTRkdXsKjQRY87zQ=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css">
+      href="/static/css/6.3.0 fontawesome.css">
     <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <style>
+    
+      <style>
     /* Custom styles */
     body {
       background-color: #fff; /* White background */
@@ -38,8 +41,7 @@
       filter: grayscale(100%); /* Convert header image to grayscale */
     }
     
-    .btn-outline-light:hover,
-    .btn-outline-light:focus {
+    .btn-outline-light:hover {
   color: black !important;
 }
 
@@ -73,13 +75,13 @@
         <ul class="navbar-nav ml-auto">
 
           <a href="#about" class="btn btn-outline-light mx-3 text-white"
-            type="submit">About</a>
+          onclick="disableButton(this)" type="submit">About</a>
           <a href="#skills" class="btn btn-outline-light text-white me-4"
-            type="submit">Skills</a>
+          onclick="disableButton(this)"  type="submit">Skills</a>
           <a href="#portfolio" class="btn btn-outline-light mx-3 text-white"
-            type="submit">Portfolio</a>
+          onclick="disableButton(this)"  type="submit">Portfolio</a>
           <a href="#contact" class="btn btn-outline-light text-white me-4"
-            type="submit">Contact</a>
+          onclick="disableButton(this)" type="submit">Contact</a>
 
         </ul>
       </div>
@@ -93,6 +95,13 @@
       <p>I'm a fresher looking to kickstart my career in Software Industry.
         Here's what I bring to the table.</p>
     </header>
+
+    <section id="download-resume" class="container mt-5">
+      <div class="text-center">
+        <a href="/static/Amar Kumar Pathak Resume.pdf" target="_blank" class="btn btn-outline-dark mx-3">Download Resume</a>
+      </div>
+    </section>
+    
 
     <!-- About Section -->
     <section id="about" class="container mt-5">
@@ -172,7 +181,7 @@
                   Here you can also see the top 10 customers, The top 5 products
                   which produces profit as well as loss.</p>
                 <a href="https://github.com/Amar00007/Global_Superstore_PowerBI"
-                  class="btn btn-dark">View Project</a>
+                onclick="disableButton(this)" class="btn btn-dark">View Project</a>
               </div>
             </div>
           </div>
@@ -189,7 +198,7 @@
                   new users. The future of this project
                   will be to connect a backend.
                 </p>
-                <a href="https://github.com/Amar00007/Book_Store" class="btn btn-dark">View Project</a>
+                <a href="https://github.com/Amar00007/Book_Store" onclick="disableButton(this)" class="btn btn-dark">View Project</a>
               </div>
             </div>
           </div>
@@ -205,7 +214,7 @@
                   contributing to diabetes onset. By leveraging machine learning
                   techniques, we aim to provide early detection and intervention
                   strategies.</p>
-                <a href="https://github.com/Amar00007/Diabetes_Prediction" class="btn btn-dark">View Project</a>
+                <a href="https://github.com/Amar00007/Diabetes_Prediction" onclick="disableButton(this)" class="btn btn-dark">View Project</a>
               </div>
             </div>
           </div>
@@ -241,36 +250,36 @@
             <section class="mb-2">
               <!-- Facebook -->
               <a class="btn btn-outline-light btn-floating m-1"
-                href="https://www.facebook.com/amarkumar.pathak.98"
+              onclick="disableButton(this)" href="https://www.facebook.com/amarkumar.pathak.98"
                 target="_blank" role="button"><i
                   class="fab fa-facebook-f"></i></a>
 
               <!-- Twitter -->
               <a class="btn btn-outline-light btn-floating m-1"
-                href="https://twitter.com/naughtyboi58?t=sXUx9qvkyW3CfhlHoBoKgQ&s=09"
+              onclick="disableButton(this)" href="https://twitter.com/naughtyboi58?t=sXUx9qvkyW3CfhlHoBoKgQ&s=09"
                 target="_blank" role="button"><i
                   class="fab fa-twitter"></i></a>
 
               <!-- Google -->
               <a class="btn btn-outline-light btn-floating m-1"
-                href="https://www.google.com/search?rlz=1C1OPNX_enIN1016IN1016&sxsrf=AJOqlzVktFK1Z9RHdeS6WWssHKTrhUtwWw:1677836335782&q=Amar+Kumar+Pathak&stick=H4sIAAAAAAAAAOOwesSozi3w8sc9YSm5SWtOXmOU4BLzSsxLLEl0LkpNLEkNTk0sSs5wTixK4VnEKuiYm1ik4F0KIgMSSzISswGdQ8oIQAAAAA&sa=X&ved=2ahUKEwiFhqS2u7_9AhUlAbcAHVb2CMYQnJoFegQIGRAG&biw=1280&bih=569&dpr=1.5"
+              onclick="disableButton(this)"  href="https://www.google.com/search?rlz=1C1OPNX_enIN1016IN1016&sxsrf=AJOqlzVktFK1Z9RHdeS6WWssHKTrhUtwWw:1677836335782&q=Amar+Kumar+Pathak&stick=H4sIAAAAAAAAAOOwesSozi3w8sc9YSm5SWtOXmOU4BLzSsxLLEl0LkpNLEkNTk0sSs5wTixK4VnEKuiYm1ik4F0KIgMSSzISswGdQ8oIQAAAAA&sa=X&ved=2ahUKEwiFhqS2u7_9AhUlAbcAHVb2CMYQnJoFegQIGRAG&biw=1280&bih=569&dpr=1.5"
                 target="_blank" role="button"><i class="fab fa-google"></i></a>
 
               <!-- Instagram -->
               <a class="btn btn-outline-light btn-floating m-1"
-                href="https://instagram.com/a_m_a_r____7?igshid=NTE5MzUyOTU="
+              onclick="disableButton(this)"  href="https://instagram.com/a_m_a_r____7?igshid=NTE5MzUyOTU="
                 target="_blank" role="button"><i
                   class="fab fa-instagram"></i></a>
 
               <!-- Linkedin -->
               <a class="btn btn-outline-light btn-floating m-1"
-                href="https://www.linkedin.com/in/amar-kumar-pathak-661a66258"
+              onclick="disableButton(this)"  href="https://www.linkedin.com/in/amar-kumar-pathak-661a66258"
                 target="_blank" role="button"><i
                   class="fab fa-linkedin-in"></i></a>
 
               <!-- Github -->
               <a class="btn btn-outline-light btn-floating m-1"
-                href="https://github.com/Amar00007" target="_blank"
+              onclick="disableButton(this)"  href="https://github.com/Amar00007" target="_blank"
                 role="button"><i class="fab fa-github"></i></a>
             </section>
             <!-- Section: Social media -->
@@ -290,5 +299,18 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script
           src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+          <script>
+            function disableButton() {
+              // Disable all buttons except the "Download Resume" button
+              var buttons = document.querySelectorAll('.btn');
+              buttons.forEach(function(button) {
+                if (button.id == 'downloadButton') {
+                  button.disabled = true;
+                }
+              });
+            }
+          </script>
+          
       </body>
     </html>
